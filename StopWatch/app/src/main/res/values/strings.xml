@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StopWatch</string>
+    <string name="Splash_txt">Healthy On You</string>
+    <string name="Splash_txt_sub">Key of Happiness is not a \nlife for money</string>
+    <string name="btn_splash_txt">Get Started</string>
+    <string name="btnstart_string">Start Now</string>
+    <string name="btnstop_string">Finish WorkOut</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HeroExpress</string>
+    <string name="rate_title">Rate the Service</string>
+    <string name="resultrate">Good Enough</string>
+    <string name="btntext">Give Feedback</string>
+</resources>

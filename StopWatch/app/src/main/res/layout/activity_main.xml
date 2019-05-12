@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    tools:context="com.example.hp.stopwatch.MainActivity">
+    
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="360dp"
+        android:layout_height="390dp"
+        android:src="@drawable/icget"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/Splash_txt"
+        android:textColor="#FFFF"
+        android:textSize="24sp"
+        android:fontFamily="fonts/MRegular.ttf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintTop_toBottomOf="@+id/ivSplash"
+         />
+
+    <TextView
+        android:id="@+id/tvSubSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Splash_txt_sub"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="fonts/MLight.ttf"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintTop_toBottomOf="@id/tvSplash"
+        />
+
+    <Button
+        android:id="@+id/btnSplash"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:text="@string/btn_splash_txt"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:fontFamily="fonts/MMedium.ttf"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_splash_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    
+</android.support.constraint.ConstraintLayout>
